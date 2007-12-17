@@ -12,7 +12,6 @@ Group: Graphics
 URL: http://martin.gleeson.com/fly/
 Buildrequires: gd-devel
 Buildrequires: freetype-devel 
-BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 Fly is a graphic tool to generate gif/png on the fly
