@@ -38,3 +38,49 @@ cp fly $RPM_BUILD_ROOT/%_bindir
 %doc doc/*
 %_bindir/*
 
+
+
+%changelog
+* Sun Dec 05 2010 Oden Eriksson <oeriksson@mandriva.com> 2.0.0-9mdv2011.0
++ Revision: 610716
+- rebuild
+
+* Thu Sep 03 2009 Thierry Vignaud <tv@mandriva.org> 2.0.0-8mdv2010.0
++ Revision: 428808
+- rebuild
+
+* Thu Jul 24 2008 Thierry Vignaud <tv@mandriva.org> 2.0.0-7mdv2009.0
++ Revision: 245242
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 2.0.0-5mdv2008.1
++ Revision: 140730
+- restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+    - import fly
+
+
+* Fri Oct 07 2005 Nicolas Lécureuil <neoclust@mandriva.org> 2.0.0-5mdk
+- Fix BuildRequires
+- %%mkrel
+
+* Thu Jun 03 2004 Michael Scherer <misc@mandrake.org> 2.0.0-4mdk 
+- rebuild for new libintl
+- simplify BuildRequires
+- rpmbuildupdate aware
+
+* Tue Apr 29 2003 Lenny Cartier <lenny@mandrakesoft.com 2.0.0-3mdk
+- adjust buildrequires
+
+* Sat Feb 01 2003 Lenny Cartier <lenny@mandrakesoft.com 2.0.0-2mdk
+- rebuild
+
+* Mon Aug 26 2002 Lenny Cartier <lenny@mandrakesoft.com> 2.0.0-1mdk
+- 2.0.0
+- from Laurent Domisse <domisse@w3perl.com> :
+	- First RPM release
+
+
+# end of file
