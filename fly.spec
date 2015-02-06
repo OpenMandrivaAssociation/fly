@@ -1,6 +1,6 @@
 %define name fly
 %define version 2.0.0
-%define release %mkrel 9
+%define release 10
 
 Summary: Generate GIF on the fly
 Name: %{name}
