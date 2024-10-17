@@ -9,7 +9,7 @@ Release: %{release}
 Source0: http://martin.gleeson.com/fly/dist/%{name}-%{version}.tar.bz2
 License: Distributable
 Group: Graphics
-URL: http://martin.gleeson.com/fly/
+URL: https://martin.gleeson.com/fly/
 Buildrequires: gd-devel
 Buildrequires: freetype-devel 
 BuildRoot: %{_tmppath}/%{name}-buildroot
